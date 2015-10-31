@@ -11,6 +11,15 @@
 
 	complexity of each query is log n * log m. where n= rows and m = columns. 
 
+## nCr with mod :
+
+	calculates  nCr with modulo mod.
+	nCr = n! / ((r!)*(n-r)!) 
+	 ncr % mod = n! * inverse(r!) * inverse((n-r)!)  % mod
+
+	 inverse(a) = a ^ (mod -2) where mod must be prime. 
+
+
 ## Prime sieve (segmented sieve) :
 
    Normal sieve upto 10^5 , and to generate prime numbers bigger than that 
