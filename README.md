@@ -3,7 +3,7 @@
 ##1d Segment tree with lazy propagation :
 	
 	my solution above calculates number of elements  in a given array which are multiples of 3.
-	qsn link : lightoj.com/volume_showproblem.php?problem=1135.  
+	qsn link : lightoj.com/volume_showproblem.php?problem=1135.s  
 
 ##2d segment tree :
  	
@@ -25,6 +25,7 @@
 	 inverse(a) = a ^ (mod -2) where mod must be prime. 
 
 
+
 ## Prime sieve (segmented sieve) :
 
    Normal sieve upto 10^5 , and to generate prime numbers bigger than that 
@@ -40,6 +41,16 @@
 
 	complexity : O(V + ElogE)           
 
+##stl-comparator function :
+
+	we are sorting array of structures here :
+
+	priority : lesser value of gold comes first ,
+	if 2 groups have same amount of gold, take the one with lesser silver ,
+	similarly bronze.
+
+	but if all the three are equal ,
+	the string "name" with lexicographically bigger will come first. 	
 
 ## Z-algorithm :
 	
