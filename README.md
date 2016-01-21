@@ -1,5 +1,10 @@
 #All useful codes 
 
+##1d Segment tree with lazy propagation :
+	
+	my solution above calculates number of elements  in a given array which are multiples of 3.
+	qsn link : lightoj.com/volume_showproblem.php?problem=1135.  
+
 ##2d segment tree :
  	
 	As we know 1d segment tree for array queries such as update,range sums etc..
