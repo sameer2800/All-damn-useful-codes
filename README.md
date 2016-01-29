@@ -16,6 +16,14 @@
 
 	complexity of each query is log n * log m. where n= rows and m = columns. 
 
+##Set inclusion and Exclusion :
+	
+	this solution is useful when we deal with all the subsets present in an array.
+	there are 2^n subsets. 
+
+	we can generate subsets only when n is smaller . 
+	range of n :  n < 20 .
+
 ## nCr with mod :
 
 	calculates  nCr with modulo mod.
