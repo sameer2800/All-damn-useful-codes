@@ -24,6 +24,11 @@
 	we can generate subsets only when n is smaller . 
 	range of n :  n < 20 .
 
+## Maximum bipartite matching :
+
+	variations : max flow min cut , ford fulkerson algo 
+
+
 ## nCr with mod :
 
 	calculates  nCr with modulo mod.
