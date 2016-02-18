@@ -65,6 +65,18 @@
 	but if all the three are equal ,
 	the string "name" with lexicographically bigger will come first. 	
 
+##Tarzans algorithm :
+
+	this is used to find out all the strongly connected components in a 
+	graph. a scc is a part of a graph in which there exists a path from
+	every node to every other node.
+
+	run a dfs to find discovery time and also low time of all nodes . 
+	scc root is the one which has same discovery time  and low time .
+	pop all the elements when we find out the root and which gives us one scc.
+
+	complexity : O(V+E).
+
 ## Z-algorithm :
 	
 	A very good technique for pattern searching.
