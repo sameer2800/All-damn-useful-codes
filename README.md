@@ -16,6 +16,11 @@
 
 	complexity of each query is log n * log m. where n= rows and m = columns. 
 
+##Floyd warshall :
+	
+	shortest distance between every two nodes in the entire
+	graph.
+
 ##Set inclusion and Exclusion :
 	
 	this solution is useful when we deal with all the subsets present in an array.
