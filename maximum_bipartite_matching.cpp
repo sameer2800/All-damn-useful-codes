@@ -20,7 +20,7 @@
  	memset(visited,0,sizeof visited);
  	memset(parent,-1,sizeof parent);
 
- 	visited[src] = 1;
+ 	visited[src] =   1;
 
  	while(!q.empty()) {
  		ll fr = q.front();

@@ -99,6 +99,11 @@
 
 	complexity : O(V+E).
 
+##Trie tree :
+
+	implemented by using linked lists . pretty simple to understand .
+	
+
 ## Z-algorithm :
 	
 	A very good technique for pattern searching.
