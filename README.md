@@ -59,6 +59,23 @@
 
 	complexity : O(V + ElogE)           
 
+
+
+##Sprague - grundy numbers :
+
+	category : Number theory.
+
+	find grundy number for all the heap sizes.
+
+	grundy value of non movable states are 0.
+	generally, g[0] = 0 .
+
+	g[i] =  minimum number which is not present in the set of all the
+	grundy numbers where 'i' can move into.
+
+	answer will be g[n1] ^ g[n2] ^ g[n3] ....		
+
+
 ##stl-comparator function :
 
 	we are sorting array of structures here :
