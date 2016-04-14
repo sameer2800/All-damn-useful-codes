@@ -16,6 +16,17 @@
 
 	complexity of each query is log n * log m. where n= rows and m = columns. 
 
+##Bellman Ford :
+	
+	this algorithm is used to find the shortest distance from source (similar to
+		dijikstra) . but the complexity is O(VE) .
+
+	Bellman ford algo is mainly used to find negative cycles in the graph. but it 
+	do not find the position of negative cycle.
+		
+
+
+
 ##Floyd warshall :
 	
 	shortest distance between every two nodes in the entire
